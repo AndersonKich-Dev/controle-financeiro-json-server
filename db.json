@@ -2,5 +2,11 @@
   "employees": [
     { "id": 1, "title": "json-server", "author": "typicode" },
     { "id": 2, "title": "json-server test", "author": "typicode teste" }
-  ]
+  ],
+  "auth": {
+    "id": 1,
+    "name": "Admin",
+    "password": "123456",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJPbmxpbmUgSldUIEJ1aWxkZXIiLCJpYXQiOjE2ODU3MDUzMjEsImV4cCI6MTc0ODc3NzMyMSwiYXVkIjoid3d3LmV4YW1 wbGUuY29tIiwic3ViIjoibW9ja0BleGFtcGxlLmNvbSIsIkdpdmVuTmFtZSI6IkFkbWluIiwiU3VybmFtZSI6IkFkbWluIiwiRW1haWwiOiJhZG1pbkBleGFtcGxlLmNvbSIsIlJvbGUiOlsi QWRtaW5pc3RyYWRvciIsIlByb2pldG9Db250cm9sZUZpbmFuY2Vpcm8iXX0.UUzLNgPQBZllxMnIhqcbZWz8a7HT8k1s9PeAQ9oAQ7k"
+  }
 }
