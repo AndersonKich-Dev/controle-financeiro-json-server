@@ -1,20 +1,12 @@
 {
-  "name": "controle-financeiro-json-server",
+  "name": "json-server-vercel",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Deploy JSON Server to Vercel",
+  "main": "api/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node api/server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AndersonKich-Dev/controle-financeiro-json-server.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AndersonKich-Dev/controle-financeiro-json-server/issues"
-  },
-  "homepage": "https://github.com/AndersonKich-Dev/controle-financeiro-json-server#readme"
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
 }

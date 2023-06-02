@@ -1,32 +1,9 @@
 {
-  "employees": [
-    {
-      "id": 1,
-      "name": "Pankaj",
-      "salary": "10000"
-    },
-    {
-      "name": "David",
-      "salary": "5000",
-      "id": 2
-    },
-    {
-      "id": 3,
-      "name": "kich",
-      "salary": "30000"
-    },
-    {
-      "id": "f0a01cc8-9867-4b11-b12d-9c66cf446e51",
-      "name": "kich",
-      "salary": "30000"
-    }
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
   ],
-
-  "login": {
-    "id": 1,
-    "name": "Admin",
-    "password": "97408469Bdc",
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTY4NTY2ODA2OSwiaWF0IjoxNjg1NjY4MDY5fQ.taUvxoB8BKPakBoCWSA90nJ8rHCsYpbh6Km2teui3XE"
-  }
-
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
 }
