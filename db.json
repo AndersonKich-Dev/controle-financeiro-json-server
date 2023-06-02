@@ -3,7 +3,7 @@
     { "id": 1, "title": "json-server", "author": "typicode" },
     { "id": 2, "title": "json-server test", "author": "typicode teste" }
   ],
-  "auth": {
+  "login": {
     "id": 1,
     "name": "Admin",
     "password": "123456",
